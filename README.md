@@ -18,12 +18,12 @@ kxl:text_origin_color="#ff000000"</br>
 kxl:text_size="60sp" /></br>
 
 ## 注意
-* progress [0.0f , 1.0f]
-* text 绘制的文本
-* text_change_color目标颜色
-* text_origin_color原始颜色
-* text_size字体大小
-* direction方向，枚举类型，支持：left,right,top,bottom
+* `progress`[0.0f , 1.0f]</br>
+* `text`绘制的文本</br>
+* `text_change_color`目标颜色</br>
+* `text_origin_color`原始颜色</br>
+* `text_size`字体大小</br>
+* `direction`方向，枚举类型，支持：left,right,top,bottom</br>
 
 效果图
 ====

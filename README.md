@@ -25,7 +25,7 @@ kxl:text_size="60sp" /></br>
 * `text_size`字体大小</br>
 * `direction`方向，枚举类型，支持：left,right,top,bottom</br>
 
-效果图
+结合viewpager使用效果图
 ====
 ![](https://raw.githubusercontent.com/hongyangAndroid/ColorTrackView/master/sample_ColorTrackeView/changecolortvdemo.gif)
         

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:kxl="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.kxl.atu.colorchangeindicator.view.ColorTrackView
+        android:id="@+id/id_changeTextColorView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#44ff0000"
+        android:padding="10dp"
+        kxl:progress="0"
+        kxl:text="孔祥磊"
+        kxl:text_change_color="#ffff0000"
+        kxl:text_origin_color="#ff000000"
+        kxl:text_size="60sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/id_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startLeftChange"
+            android:text="StartLeft" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/id_left"
+            android:onClick="startRightChange"
+            android:text="StartRight" />
+    </LinearLayout>
+
+</RelativeLayout>

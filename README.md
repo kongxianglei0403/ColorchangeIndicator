@@ -4,18 +4,19 @@ ColorchangeIndicator
 
 使用
 ===
-        <com.kxl.atu.colorchangeindicator.view.ColorTrackVie
-                android:id="@+id/id_changeTextColorView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:background="#44ff0000"
-                android:padding="10dp"
-                kxl:progress="0"
-                kxl:text="孔祥磊"
-                kxl:text_change_color="#ffff0000"
-                kxl:text_origin_color="#ff000000"
-                kxl:text_size="60sp" />
+<com.kxl.atu.colorchangeindicator.view.ColorTrackVie
+android:id="@+id/id_changeTextColorView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_centerInParent="true"
+android:background="#44ff0000"
+android:padding="10dp"
+kxl:progress="0"
+kxl:text="孔祥磊"
+kxl:text_change_color="#ffff0000"
+kxl:text_origin_color="#ff000000"
+kxl:text_size="60sp" />
+
 
 ## 注意
 * `progress`[0.0f , 1.0f]</br>
